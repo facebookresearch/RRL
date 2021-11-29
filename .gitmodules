@@ -1,0 +1,8 @@
+[submodule "mj_envs"]
+	path = mj_envs
+	url = https://github.com/ShahRutav/mj_envs.git
+	branch = rrl 
+[submodule "mjrl"]
+	path = mjrl
+	url = https://github.com/ShahRutav/mjrl.git
+	branch = master
