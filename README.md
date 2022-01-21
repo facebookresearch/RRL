@@ -1,8 +1,15 @@
 <!-- Copyright (c) Rutav Shah, Indian Institute of Technlogy Kharagpur  -->
 <!-- Copyright (c) Facebook, Inc. and its affiliates -->
-# RRL: Resnet as representation for Reinforcement Learning
 ## Quick Links
 [Wesbite](https://sites.google.com/view/abstractions4rl)   |   [Paper](https://arxiv.org/abs/2107.03380)   |   [Video](https://youtu.be/Yj1EHvGWmRA)
+
+# RRL: Resnet as representation for Reinforcement Learning
+Resnet as representation for Reinforcement Learning (RRL) is a simple yet effective approach for training behaviors directly from visual inputs. We demonstrate that features learned by standard image classification models are general towards different task, robust to visual distractors, and when used in conjunction with standard Imitation Learning or Reinforcement Learning pipelines can efficiently acquire behaviors directly from proprioceptive inputs.
+
+Final Behaviors acquired using RRL on [ADROIT benchmark](https://sites.google.com/view/deeprl-dexterous-manipulation) tasks (left to right) (a) Opening a door (b) Hammering a nail  (c) Pen-twirling (d)) Object relocation
+![All Tasks](examples/results.gif?raw=flase)
+
+
 ## Setup
 `RRL` codebase can be installed by cloning this repository. Note that it uses git submodules to resolve dependencies. Please follow the steps as below to install correctly.
 
